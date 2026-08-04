@@ -3,31 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SyntaxWear</title>
+    <title>SyntaxWear - Tênis e Sneakers Online</title>
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/variaveis.css">
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/components/header.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <a href="#" class="logo">SyntaxWear</a>
-            <nav aria-label="Navegação principal">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Novidades</a></li>
-                    <li><a href="#">Categorias</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
+    <header class="header">
+        <!--Logo de Navegação-->
+        <h1 class="logo">
+            <a href="/" title="SyntaxWear - Tênis e Sneakers Online">
+                <img src="./images/logo/Logo.svg" alt="SyntaxWear - Tênis e Sneakers Online">
+            </a>
+        </h1>
+        <nav class="nav-center" aria-label="Categorias Principais">
+            <ul>
+                <li><a href="#">Masculino</a></li>
+                <li><a href="#">Feminino</a></li>
+                <li><a href="#">Outlet</a></li>
+            </ul>
+        </nav>
+        <nav class="nav-extra" aria-label="Menu secundário">
+            <ul>
+                <li><a href="#">Nossas lojas</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li>
+                    <a href="#" class="icon-link" aria-label="Perfil">
+                        <img src="./images/icons/user.svg" alt="Perfil" class="icon-image">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="icon-link" aria-label="Ajuda">
+                        <img src="./images/icons/help.svg" alt="Ajuda" class="icon-image">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="icon-link" aria-label="Carrinho">
+                        <img src="./images/icons/cart.svg" alt="Carrinho" class="icon-image">
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <section afeat;ria-labelledby="hero-title">
+        <section aria-labelledby="hero-title">
             <div class="container">
-                <h1 id="hero-title">Hero</h1>
+               
             </div>
         </section>
 
