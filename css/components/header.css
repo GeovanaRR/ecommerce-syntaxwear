@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 20px;
+    padding: 0.0255rem 1.25rem;
     background-color: #ffffff;
 }
 
@@ -28,6 +28,8 @@
 .nav-extra a{
     font-size: 1.25rem;
     white-space: nowrap;
+    color: #333333;
+
 }
 
 .nav-center a:hover, 
